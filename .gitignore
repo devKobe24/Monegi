@@ -124,8 +124,8 @@ xcuserdata
 *.xcodeproj
 
 ### API TOKEN PLIST ###
-PRODUCTION-API-TOKEN.plist
-DEVELOPMENT-API-TOKEN.plist
 STAGING-API-TOKEN.plist
+DEVELOPMENT-API-TOKEN.plist
+PRODUCTION-API-TOKEN.plist
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,macos
