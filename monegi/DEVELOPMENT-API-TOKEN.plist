@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   DEVELOPMENT-API-TOKEN.plist
-   monegi
-
-   Created by Minseong Kang on 10/30/23.
-   Copyright (c) 2023 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>API_TOKEN</key>
+	<string>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</string>
+</dict>
 </plist>
