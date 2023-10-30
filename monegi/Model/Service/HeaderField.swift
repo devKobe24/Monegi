@@ -5,6 +5,8 @@
 //  Created by Minseong Kang on 10/29/23.
 //
 
+import Foundation
+
 enum HeaderField {
     case accept
     case autorization
@@ -26,7 +28,7 @@ enum HeaderField {
         case .accept:
             return "application/vnd.github+json"
         case .autorization:
-            return "Bearer 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"
+            return "Bearer \(Bundle.parsePlist(ofName: "STAGING-API-TOKEN"))"
         case .version:
             return "2022-11-28"
         }
