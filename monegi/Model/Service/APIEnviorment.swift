@@ -25,3 +25,16 @@ extension APIEnviorment {
         }
     }
 }
+
+extension APIEnviorment {
+    var token: String {
+        switch self {
+        case .development:
+            return "DEVELOPMENT-API-TOKEN"
+        case .staging:
+            return "STAGING-API-TOKEN"
+        case .production:
+            return "PRODUCTION-API-TOKEN"
+        }
+    }
+}
