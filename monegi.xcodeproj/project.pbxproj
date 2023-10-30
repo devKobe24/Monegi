@@ -26,9 +26,9 @@
 		CD209F772AEF2C4600FF3A06 /* ImageContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD209F762AEF2C4600FF3A06 /* ImageContents.swift */; };
 		CD209F7B2AEF2EEE00FF3A06 /* ListRepositoiesForUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD209F7A2AEF2EEE00FF3A06 /* ListRepositoiesForUser.swift */; };
 		CD209F7D2AEF41D900FF3A06 /* PRODUCTION-API-TOKEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD209F7C2AEF41D900FF3A06 /* PRODUCTION-API-TOKEN.plist */; };
-		CD209F7F2AEF41F700FF3A06 /* DEVELOPMENT-API-TOKEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD209F7E2AEF41F700FF3A06 /* DEVELOPMENT-API-TOKEN.plist */; };
-		CD209F822AEF421C00FF3A06 /* STAGING-API-TOKEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD209F812AEF421C00FF3A06 /* STAGING-API-TOKEN.plist */; };
 		CD209F852AEF42C200FF3A06 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD209F842AEF42C200FF3A06 /* Bundle+.swift */; };
+		CD92057F2AEF55E9005EF657 /* DEVELOPMENT-API-TOKEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD92057E2AEF55E9005EF657 /* DEVELOPMENT-API-TOKEN.plist */; };
+		CD9205812AEF5602005EF657 /* STAGING-API-TOKEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD9205802AEF5602005EF657 /* STAGING-API-TOKEN.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,9 +53,9 @@
 		CD209F762AEF2C4600FF3A06 /* ImageContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContents.swift; sourceTree = "<group>"; };
 		CD209F7A2AEF2EEE00FF3A06 /* ListRepositoiesForUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepositoiesForUser.swift; sourceTree = "<group>"; };
 		CD209F7C2AEF41D900FF3A06 /* PRODUCTION-API-TOKEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRODUCTION-API-TOKEN.plist"; sourceTree = "<group>"; };
-		CD209F7E2AEF41F700FF3A06 /* DEVELOPMENT-API-TOKEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DEVELOPMENT-API-TOKEN.plist"; sourceTree = "<group>"; };
-		CD209F812AEF421C00FF3A06 /* STAGING-API-TOKEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STAGING-API-TOKEN.plist"; sourceTree = "<group>"; };
 		CD209F842AEF42C200FF3A06 /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
+		CD92057E2AEF55E9005EF657 /* DEVELOPMENT-API-TOKEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DEVELOPMENT-API-TOKEN.plist"; sourceTree = "<group>"; };
+		CD9205802AEF5602005EF657 /* STAGING-API-TOKEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STAGING-API-TOKEN.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 				CD0A94FC2AEDD4CC008E0D73 /* Assets.xcassets */,
 				CD0A95012AEDD4CC008E0D73 /* Info.plist */,
 				CD209F7C2AEF41D900FF3A06 /* PRODUCTION-API-TOKEN.plist */,
-				CD209F7E2AEF41F700FF3A06 /* DEVELOPMENT-API-TOKEN.plist */,
-				CD209F812AEF421C00FF3A06 /* STAGING-API-TOKEN.plist */,
+				CD92057E2AEF55E9005EF657 /* DEVELOPMENT-API-TOKEN.plist */,
+				CD9205802AEF5602005EF657 /* STAGING-API-TOKEN.plist */,
 			);
 			path = monegi;
 			sourceTree = "<group>";
@@ -334,10 +334,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD209F7D2AEF41D900FF3A06 /* PRODUCTION-API-TOKEN.plist in Resources */,
-				CD209F822AEF421C00FF3A06 /* STAGING-API-TOKEN.plist in Resources */,
+				CD9205812AEF5602005EF657 /* STAGING-API-TOKEN.plist in Resources */,
 				CD0A95002AEDD4CC008E0D73 /* LaunchScreen.storyboard in Resources */,
 				CD0A94FD2AEDD4CC008E0D73 /* Assets.xcassets in Resources */,
-				CD209F7F2AEF41F700FF3A06 /* DEVELOPMENT-API-TOKEN.plist in Resources */,
+				CD92057F2AEF55E9005EF657 /* DEVELOPMENT-API-TOKEN.plist in Resources */,
 				CD0A94FB2AEDD4CB008E0D73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
