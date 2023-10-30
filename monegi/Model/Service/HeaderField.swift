@@ -7,6 +7,8 @@
 
 import Foundation
 
+fileprivate let apiToken = Bundle.parsePlist(ofName: "STAGING-API-TOKEN")
+
 enum HeaderField {
     case accept
     case autorization
@@ -28,7 +30,7 @@ enum HeaderField {
         case .accept:
             return "application/vnd.github+json"
         case .autorization:
-            return "Bearer \(Bundle.parsePlist(ofName: "STAGING-API-TOKEN"))"
+            return "Bearer \(apiToken)"
         case .version:
             return "2022-11-28"
         }
