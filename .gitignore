@@ -128,4 +128,7 @@ PRODUCTION-API-TOKEN.plist
 DEVELOPMENT-API-TOKEN.plist
 STAGING-API-TOKEN.plist
 
+### UserInterfaceState.xcuserstate ###
+*.xcuserstate
+
 # End of https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,macos
