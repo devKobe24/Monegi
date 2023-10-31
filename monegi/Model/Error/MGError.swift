@@ -14,6 +14,9 @@ enum MGError: LocalizedError {
     case invalidHeader
     case fetchListRepository
     case fetchListPublicRepository
+    case alertTitle
+    case buttonTitle
+    case message
     
     var errorDescription: String? {
         switch self {
@@ -29,6 +32,12 @@ enum MGError: LocalizedError {
             return "List Repository Activities 데이터를 가져오지 못했습니다..."
         case .fetchListPublicRepository:
             return "List Public Repository 데이터를 가져오지 못했습니다..."
+        case .alertTitle:
+            return "얼럿 타이틀이 잘못되었습니다."
+        case .buttonTitle:
+            return "버튼 타이틀 에러."
+        case .message:
+            return "메세지 에러."
         }
     }
 }
