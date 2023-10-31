@@ -3,4 +3,102 @@
    uuid = "9C453705-90AE-4105-90A0-29E48FAA7C90"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13D918A8-5CB3-4DD5-AAF7-4C0E49C2FDD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monegi/Controller/Core/UserInformationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getUserInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13D918A8-5CB3-4DD5-AAF7-4C0E49C2FDD1 - 5f4a5b729854615f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;monegi.User, monegi.MGError&gt;) -&gt; () in monegi.UserInformationViewController.getUserInfo() -&gt; ()"
+                  moduleName = "monegi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kobe/Desktop/iOS-Kobe/monegi/monegi/Controller/Core/UserInformationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "13D918A8-5CB3-4DD5-AAF7-4C0E49C2FDD1 - 5f4a5b7298546101"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;monegi.User, monegi.MGError&gt;) -&gt; () in monegi.UserInformationViewController.getUserInfo() -&gt; ()"
+                  moduleName = "monegi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kobe/Desktop/iOS-Kobe/monegi/monegi/Controller/Core/UserInformationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D025C647-9E04-4D64-8ED9-9070385E77BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monegi/Controller/Core/UserInformationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getUserInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D025C647-9E04-4D64-8ED9-9070385E77BF - 5f4a5b729854615f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;monegi.User, monegi.MGError&gt;) -&gt; () in monegi.UserInformationViewController.getUserInfo() -&gt; ()"
+                  moduleName = "monegi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kobe/Desktop/iOS-Kobe/monegi/monegi/Controller/Core/UserInformationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "D025C647-9E04-4D64-8ED9-9070385E77BF - 5f4a5b7298546101"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;monegi.User, monegi.MGError&gt;) -&gt; () in monegi.UserInformationViewController.getUserInfo() -&gt; ()"
+                  moduleName = "monegi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kobe/Desktop/iOS-Kobe/monegi/monegi/Controller/Core/UserInformationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

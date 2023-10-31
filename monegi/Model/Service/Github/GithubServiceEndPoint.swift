@@ -10,6 +10,8 @@ import Foundation
 enum GithubServiceEndPoint {
     case getListRepoData(owner: String, repo: String)
     case getListRepoForUser(username: String)
+    case getUserInfo(username: String)
+    case getFollower(username: String)
     
     func getURL(from environment: APIEnviorment) -> String {
         let baseUrl = environment.githubServiceBaseUrl
@@ -19,6 +21,10 @@ enum GithubServiceEndPoint {
             return "\(baseUrl)/repos/\(owner)/\(repo)/activity"
         case .getListRepoForUser(let username):
             return "\(baseUrl)/users/\(username)/repos"
+        case .getUserInfo(let username):
+            return "\(baseUrl)/users/\(username)"
+        case .getFollower(username: let username):
+            return "\(baseUrl)/users/\(username)/followers"
         }
     }
 }
